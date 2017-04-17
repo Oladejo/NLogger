@@ -18,7 +18,6 @@ namespace NLog4Mvc.Controllers
             }
             catch (Exception ex)
             {
-                //logger.Trace(ex);
                 logger.ErrorException("Error occured in Home controller Index Action", ex);
             }
             return View();
